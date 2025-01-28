@@ -21,8 +21,8 @@ const App = () => {
         <main className="main">
         <Home/>
         <About/>
-        <Resume/>
         <Service/>
+        <Resume/>
         <Portfolio/>
        <Pricing/>
        <Testimonials/>
