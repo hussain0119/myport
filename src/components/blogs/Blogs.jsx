@@ -13,8 +13,8 @@ const Blogs = () => {
     <div className="blog__container grid">
       <div className="blog__card">
         <div className="blog__thumb">
-          <a href=""><span className="blog__category">Reviews</span></a>
-          <a href="#"><img src={Image1} alt="" className="blog__img" /></a>
+          <a href="a"><span className="blog__category">Reviews</span></a>
+          <a href="a"><img src={Image1} alt="" className="blog__img" /></a>
         </div>
         <div className="blog__details">
           <h3 className="blog__title">5 Best App Development Tool for Your Projects
@@ -30,8 +30,8 @@ const Blogs = () => {
 
       <div className="blog__card">
         <div className="blog__thumb">
-          <a href="#"><span className="blog__category">Tutorial</span></a>
-          <a href="#"><img src={Image2} alt="" className="blog__img" /></a>
+          <a href="a"><span className="blog__category">Tutorial</span></a>
+          <a href="a"><img src={Image2} alt="" className="blog__img" /></a>
         </div>
         <div className="blog__details">
           <h3 className="blog__title">Common Misconceptions About Payment
@@ -46,8 +46,8 @@ const Blogs = () => {
 
       <div className="blog__card">
         <div className="blog__thumb">
-          <a href="#"><span className="blog__category">Business</span></a>
-          <a href="#"><img src={Image3} alt="" className="blog__img" /></a>
+          <a href="a"><span className="blog__category">Business</span></a>
+          <a href="a"><img src={Image3} alt="" className="blog__img" /></a>
         </div>
         <div className="blog__details">
           <h3 className="blog__title">3 Things to know about startup business

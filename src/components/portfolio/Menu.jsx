@@ -10,7 +10,7 @@ const Menu = [
       id: 1,
       image: Work1,
       title: "Project Management Illustration",
-      category: "Design",
+      category: "Design"
     },
     {
       id: 2,
@@ -24,21 +24,21 @@ const Menu = [
       title: "Delivery App Wireframe",
       category: "Branding",
     },
-    ,
+    
     {
       id: 4,
       image: Work4,
       title: "Onboarding Motivation",
       category: "Design",
     },
-    ,
+    
     {
       id: 5,
       image: Work5,
       title: "iMac Mockup Design",
       category: "Creative",
     },
-    ,
+    
     {
       id: 6,
       image: Work6,
@@ -48,4 +48,4 @@ const Menu = [
   ];
   
 
-export default Menu
+export default Menu;

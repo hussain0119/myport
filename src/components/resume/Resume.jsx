@@ -11,25 +11,25 @@ const Resume = () => {
      
      <div className="resume__container grid">
       <div className="timeline grid">
-        {Data.map((val, id) =>{
+        {Data.map((val, id)=>{ 
           if (val.category ==="education") {
-            return(
+            return  (
               <Card  
               key={id} 
-              icon={val.icon} 
+              icon={val.icon}  
               title={val.title}
               year={val.year} 
               desc={val.desc}/>
             )
           }
-        })}
+        })};
       </div>
       
 
       <div className="timeline grid">
         {Data.map((val, index) =>{
           if (val.category ==="experience") {
-            return(
+            return (
               <Card  
               key={index} 
               icon={val.icon} 
@@ -38,7 +38,7 @@ const Resume = () => {
               desc={val.desc}/>
             )
           }
-        })}
+        })};
       </div>
       
      </div>
